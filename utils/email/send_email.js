@@ -44,7 +44,7 @@ const sendVerificationEmail = async (userEmail, verificationToken) => {
   );
 
   // Generate the verification link
-  const verificationLink = `https://api.trototrack.online/verify?token=${verificationToken}`;
+  const verificationLink = `https://trototrack-859835962101.asia-southeast2.run.app/verify?token=${verificationToken}`;
   const formattedHtml = htmlTemplate.replace(/{{\.VerificationLink}}/g, verificationLink);
 
   // Email options

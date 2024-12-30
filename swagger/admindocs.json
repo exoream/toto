@@ -12,7 +12,7 @@
   },
   "servers": [
     {
-      "url": "https://api.trototrack.online/",
+      "url": "https://trototrack-859835962101.asia-southeast2.run.app",
       "description": "Admin Documentation"
     }
   ],
